@@ -1,10 +1,61 @@
 
+/* 
 
-p {
+comment. 
+
+*/
+
+/*p {
 	color: white;
+	/* This is a comment. */
 	background-color: red;
+	font-family: Arial;
+	font-size: large;
+	font-size: 20px;
+	font-size: 20em;
+	font-size: 130%;
+
+	font-weight: bold;
+	font-style: italic;
+	/*font-variant: small-caps;*/
+	/*text-align: center;*/
+
+	vertical-align: middle;
+
+	text-indent: 60px;
+
+	text-transform: uppercase;
+
+	letter-spacing: normal;
+}
+*/
+/* Type Selector */
+h1 {
+	text-shadow: 5px 5px 4px grey;
 }
 
-h1 {
-	font-size: 130%;
+/* ID Selector */
+#second_paragrah {
+	color: blue;
+	background-color: green;
 }
+
+/* Class Selector */
+.third {
+	text-decoration: underline;	
+}
+
+#intro .first span{
+	color: white;
+	background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
