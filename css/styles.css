@@ -5,15 +5,34 @@ comment.
 
 */
 
-/*p {
-	color: white;
+a:hover{
+	color: red;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+.first_ol {
+	list-style-type: square;	
+	/*list-style-image: url("my_image.png");*/
+}
+
+p {
+	/*visibility: hidden;*/
+	display: none;
+	/*display: inline;*/
+	border: 5px solid green;
+	background-image: url("my_image.png");
+	background-attachment: fixed;
 	/* This is a comment. */
-	background-color: red;
+	/*background-color: red;*/
 	font-family: Arial;
-	font-size: large;
-	font-size: 20px;
-	font-size: 20em;
-	font-size: 130%;
+
+
+	padding: 50px;
+	padding-left: 100;
+	margin: 50px;
 
 	font-weight: bold;
 	font-style: italic;
@@ -28,7 +47,7 @@ comment.
 
 	letter-spacing: normal;
 }
-*/
+
 /* Type Selector */
 h1 {
 	text-shadow: 5px 5px 4px grey;
@@ -49,6 +68,8 @@ h1 {
 	color: white;
 	background-color: green;
 }
+
+
 
 
 
